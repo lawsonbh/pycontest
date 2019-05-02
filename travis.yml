@@ -4,5 +4,6 @@ python:
 
 install:
   - pip install scipy numpy matplotlib hypothesis
+
 script:
   - py.test -s -v tests
